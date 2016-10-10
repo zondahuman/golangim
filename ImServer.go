@@ -3,10 +3,9 @@ package main
 
 import (
 	"fmt"
+	"golangim/im/handler"
 	"net"
 	"os"
-
-	"./im/handler"
 )
 
 func main() {

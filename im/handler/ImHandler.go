@@ -3,8 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-
-	"./../model"
+	"golangim/im/model"
 )
 
 func ProcessHandler(param string) {
@@ -15,7 +14,7 @@ func ProcessHandler(param string) {
 func transferStruct(param string) {
 	fmt.Println("transferStruct---------------", param)
 
-	msgModel := &model.Message{}
+	msgModel := &model.ChatMessageRequest{}
 	json.Unmarshal([]byte(param), &msgModel)
 	fmt.Println("msgModel %#v", msgModel)
 	fmt.Println("transferStruct", "---------end")
