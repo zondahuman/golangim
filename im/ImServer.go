@@ -6,7 +6,7 @@ import (
 	"net"
 	"os"
 
-	"../im/handler"
+	"golangim/im/handler"
 )
 
 func main() {
