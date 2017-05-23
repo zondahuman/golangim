@@ -8,9 +8,9 @@ package model
 
 type ChatMessageResponse struct {
 	BaseModel
-	Id       int
-	UserName string
-	Message  string
+	Id              int
+	UserName        string
+	ResponseMessage string
 }
 
 //func main() {
